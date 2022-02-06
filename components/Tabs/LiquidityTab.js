@@ -46,7 +46,7 @@ const LiquidityTab = () => {
         />
 
         <Text alignSelf={"flex-start"} fontWeight={"bold"} color={"gray.900"}>
-          Don't see a pool you joined? Import it.
+          Don&apos;t see a pool you joined? Import it.
         </Text>
       </Flex>
     </Flex>
