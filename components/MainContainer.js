@@ -33,6 +33,7 @@ const MainCointainer = () => {
             borderRadius={"md"}
             _selected={{ color: "gray.900", bg: "saharaYellow.900" }}
             width={"100%"}
+            fontWeight={"bold"}
           >
             Swap
           </Tab>
@@ -40,6 +41,7 @@ const MainCointainer = () => {
             borderRadius={"md"}
             _selected={{ color: "gray.900", bg: "saharaYellow.900" }}
             width={"100%"}
+            fontWeight={"bold"}
           >
             Liquidity
           </Tab>
@@ -47,6 +49,7 @@ const MainCointainer = () => {
             borderRadius={"md"}
             _selected={{ color: "gray.900", bg: "saharaYellow.900" }}
             width={"100%"}
+            fontWeight={"bold"}
           >
             Claim Btc
           </Tab>
@@ -56,11 +59,9 @@ const MainCointainer = () => {
             <SwapTab />
           </TabPanel>
           <TabPanel px={"0"}>
-            >
             <LiquidityTab />
           </TabPanel>
           <TabPanel px={"0"}>
-            >
             <ClaimBtcTab />
           </TabPanel>
         </TabPanels>

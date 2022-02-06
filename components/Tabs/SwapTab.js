@@ -1,13 +1,9 @@
 import {
   Flex,
-  Box,
-  Link,
   Button,
   useColorModeValue,
-  useColorMode,
   Image,
   Spacer,
-  Center,
   Text,
   Slider,
   SliderTrack,
@@ -25,7 +21,13 @@ const SwapTab = () => {
         direction={"column"}
         borderRadius={"md"}
       >
-        <Flex alignItems={"center"}>
+        <Flex
+          alignItems={"center"}
+          border="1px"
+          borderColor={"gray.600"}
+          padding={"0.5rem"}
+          borderRadius={"lg"}
+        >
           <Flex direction={"column"} alignItems={"start"} color="gray.900">
             <Text fontSize="2xl" fontWeight="bold">
               0.00
@@ -55,7 +57,13 @@ const SwapTab = () => {
           <Image w={"1.5rem"} src="/exchange-alt-solid.svg" alt="Alter Icon" />
         </Flex>
 
-        <Flex alignItems={"center"}>
+        <Flex
+          alignItems={"center"}
+          border="1px"
+          borderColor={"gray.600"}
+          padding={"0.5rem"}
+          borderRadius={"lg"}
+        >
           <Flex direction={"column"} alignItems={"start"} color="gray.900">
             <Text fontSize="2xl" fontWeight="bold">
               0.00
@@ -112,9 +120,13 @@ const SwapTab = () => {
         size={"lg"}
         color={useColorModeValue("white", "gray.900")}
       >
-        <Button w="100%" bg={useColorModeValue("gray.900", "gray.400")}>Refer & Earn</Button>
+        <Button w="100%" bg={useColorModeValue("gray.900", "gray.400")}>
+          Refer & Earn
+        </Button>
         <Spacer />
-        <Button w="100%" bg={useColorModeValue("gray.900", "gray.400")}>Chart</Button>
+        <Button w="100%" bg={useColorModeValue("gray.900", "gray.400")}>
+          Chart
+        </Button>
       </ButtonGroup>
     </Flex>
   );
